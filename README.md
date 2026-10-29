@@ -3,3 +3,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/light.svg">
   <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/dark.svg" width="100%">
 </picture>
+[GitHub](https://github.com/completrz) |
+[LinkedIn](https://www.linkedin.com/in/nicholas-hinkel) |
+[Portfolio](https://nicholashinkel.com)
