@@ -13,7 +13,8 @@
       },
       "config": {
         "hideBorder": false,
-        "showTitle": true
+        "showTitle": true,
+        "accentColor": "#428eef"
       },
       "locked": false,
       "visible": true,
@@ -11572,29 +11573,14 @@
           "JavaScript",
           "Rust"
         ],
-        "hideLangs": "TypeScript,JavaScript,Rust"
+        "hideLangs": "TypeScript,JavaScript,Rust",
+        "langsLayout": "bars",
+        "showPercentage": false
       },
       "locked": false,
       "visible": true,
       "zIndex": 4,
       "instanceId": "widget_1793237317675_3"
-    },
-    {
-      "widgetId": "footer",
-      "name": "Footer Widget",
-      "position": {
-        "x": 0,
-        "y": 578
-      },
-      "size": {
-        "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1793237317675_4"
     },
     {
       "widgetId": "tech-stack",
@@ -11621,6 +11607,53 @@
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1793237317675_5"
+    },
+    {
+      "instanceId": "widget_1793239480942",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 0,
+        "y": 561
+      },
+      "size": {
+        "width": 800,
+        "height": 160
+      },
+      "config": {
+        "customBio": "Senior math major at UT Austin studying Data Science and Computer Science."
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1793239489508",
+      "widgetId": "social-media",
+      "name": "Social-media Widget",
+      "position": {
+        "x": 0,
+        "y": 645
+      },
+      "size": {
+        "width": 800,
+        "height": 120
+      },
+      "config": {
+        "selectedSocials": [
+          "github",
+          "linkedin",
+          "website"
+        ],
+        "socialUrls": {
+          "github": "https://github.com/completrz",
+          "website": "https://nicholashinkel.com",
+          "linkedin": "https://linkedin.com/in/nicholas-hinkel"
+        }
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
     }
   ],
   "globalStyles": {
