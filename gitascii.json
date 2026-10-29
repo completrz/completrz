@@ -11614,14 +11614,18 @@
       "name": "Bio Widget",
       "position": {
         "x": 0,
-        "y": 561
+        "y": 562
       },
       "size": {
         "width": 800,
         "height": 160
       },
       "config": {
-        "customBio": "Senior math major at UT Austin studying Data Science and Computer Science."
+        "customBio": "Senior math major at UT Austin studying Data Science and Computer Science.",
+        "customLocation": "Austin, TX",
+        "customBlog": "nicholashinkel.com",
+        "accentColor": "#7a7a7a",
+        "hideBorder": false
       },
       "locked": false,
       "visible": true,
