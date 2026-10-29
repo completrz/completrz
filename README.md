@@ -41,6 +41,3 @@ Nick H - Senior math major studying computer science and data science.
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="44" height="44" />
 </p>
 
-🔗 Connect
-
-
