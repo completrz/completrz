@@ -42,11 +42,8 @@ Senior at UT Austin · 📍 Austin, TX
 ⠀⢀⢂⠢⠨⡈⠢⡈⡂⡂⠔⠠⠑⡐⠨⠈⠌⠄⢂⢐⠐⡐⢐⠨⠐⡀⢢⢗⣷⣳⢯⣟⣞⣞⣞⣮⢸⢘⢜⠜⡜⢜⢌⢪⣪⢯⣷⣻⣺⢾⢵⠡⠐⠨⢐⠐⡐⠄⠅⠅⢂⢁⠂⡂⠢⠨⢐⠠⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 
-👋 About Me
-
 Senior math major studying computer science and data science.
 
-🧰 Tech Stack
 
 <p>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="44" height="44" />
