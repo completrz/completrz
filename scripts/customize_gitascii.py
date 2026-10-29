@@ -20,11 +20,11 @@ def animated_row(label, display, url, y, delay):
     """Use GitAscii's anim-target class and delayed tspan reveal, not static overlay text."""
     label_text = f'. {label}: '
     # Small font fits the long LinkedIn and email URLs inside the 504px widget.
-    dots = '.' * max(2, 29 - len(label_text))
+    dots = '.' * max(3, 21 - len(label_text))
     return (
         f'<text class="anim-target" x="12" y="{y}" '
         f'font-family="\'Consolas\', \'Menlo\', \'DejaVu Sans Mono\', \'JetBrains Mono\', monospace" '
-        f'xml:space="preserve" font-size="11" '
+        f'xml:space="preserve" font-size="14" '
         f'style="animation-delay: {delay}ms; transform-origin: center;">'
         f'<tspan class="anim-target" fill="#52c85f" '
         f'style="animation-delay: {delay+21}ms; transform-origin: center;">{escape(label_text)}</tspan>'
