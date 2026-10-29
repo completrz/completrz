@@ -11626,34 +11626,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 6
-    },
-    {
-      "instanceId": "widget_1793239489508",
-      "widgetId": "social-media",
-      "name": "Social-media Widget",
-      "position": {
-        "x": 0,
-        "y": 645
-      },
-      "size": {
-        "width": 800,
-        "height": 120
-      },
-      "config": {
-        "selectedSocials": [
-          "github",
-          "linkedin",
-          "website"
-        ],
-        "socialUrls": {
-          "github": "https://github.com/completrz",
-          "website": "https://nicholashinkel.com",
-          "linkedin": "https://linkedin.com/in/nicholas-hinkel"
-        }
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 7
     }
   ],
   "globalStyles": {
