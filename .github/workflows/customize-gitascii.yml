@@ -1,0 +1,40 @@
+name: Customize GitAscii SVGs
+
+on:
+  workflow_run:
+    workflows: ["Update GitAscii"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gitascii-customization
+  cancel-in-progress: false
+
+jobs:
+  customize:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main and load trusted customization script
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Prepare script and check out generated SVG branch
+        run: |
+          cp scripts/customize_gitascii.py /tmp/customize_gitascii.py
+          git fetch origin gitascii
+          git checkout -B gitascii origin/gitascii
+      - name: Apply customizations
+        run: python3 /tmp/customize_gitascii.py
+      - name: Commit SVG changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profiles
+          if ! git diff --cached --quiet; then
+            git commit -m "Preserve GitAscii profile customizations"
+            git push origin HEAD:gitascii
+          fi
