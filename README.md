@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/dark.svg?v=20">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/light.svg?v=20">
-  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/dark.svg?v=20" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/dark.svg?v=21">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/light.svg?v=21">
+  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/completrz/completrz/gitascii/profiles/default/dark.svg?v=21" width="100%">
 </picture>
 
 <!-- Social Links -->
